@@ -45,8 +45,15 @@
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+
+        <script>
+            $.post("http://monsite.com/requestPost.php", {
+                actionInput : actionInput
+            }, function(data){
+                Console.log(data)
+            })
+        </script>
 {% endblock %}
