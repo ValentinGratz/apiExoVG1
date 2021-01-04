@@ -50,10 +50,9 @@
     </div>
 
         <script>
-            $.post("http://monsite.com/requestPost.php", {
-                actionInput : actionInput
-            }, function(data){
-                Console.log(data)
-            })
+            $("addTodo").submit(function(event)){
+                event.preventDefault();
+                console.log("test")
+            }
         </script>
 {% endblock %}
