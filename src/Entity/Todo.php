@@ -39,7 +39,7 @@ class Todo
 
     public function setAction(string $action): self
     {
-        $this->action = $action;
+        $this->action = $action
 
         return $this;
     }
